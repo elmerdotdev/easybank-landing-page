@@ -2,7 +2,7 @@
   "name": "easybank-landing-page",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "build-sass": "node-sass assets/scss -o assets/css",
     "watch-sass": "node-sass --watch assets/scss -o assets/css"
@@ -11,7 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/elmerdotdev/easybank-landing-page.git"
   },
-  "author": "Elmer G. Balbin Jr.",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/elmerdotdev/easybank-landing-page/issues"
