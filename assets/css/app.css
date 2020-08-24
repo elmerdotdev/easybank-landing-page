@@ -247,25 +247,41 @@ body {
     display: flex;
     justify-content: center; }
     .container .site-footer .wrapper {
-      align-items: flex-end; }
+      align-items: center; }
       @media screen and (max-width: 600px) {
         .container .site-footer .wrapper {
-          flex-wrap: wrap; } }
+          flex-direction: column; } }
     .container .site-footer .site-footer__social {
       flex: 1; }
       .container .site-footer .site-footer__social .site-footer__social__logo {
-        margin-bottom: 2.5rem;
+        margin-bottom: 2rem;
         text-align: left; }
+        @media screen and (max-width: 600px) {
+          .container .site-footer .site-footer__social .site-footer__social__logo {
+            text-align: center; } }
       .container .site-footer .site-footer__social .site-footer__social__icons ul {
         display: flex;
         margin: 0;
         padding: 0;
         list-style: none; }
+        @media screen and (max-width: 600px) {
+          .container .site-footer .site-footer__social .site-footer__social__icons ul {
+            justify-content: center; } }
         .container .site-footer .site-footer__social .site-footer__social__icons ul li {
           margin: 0 0.3rem; }
+          @media screen and (max-width: 1024px) {
+            .container .site-footer .site-footer__social .site-footer__social__icons ul li {
+              justify-content: center; } }
     .container .site-footer .site-footer__menu {
       display: flex;
       flex: 1; }
+      @media screen and (max-width: 1024px) {
+        .container .site-footer .site-footer__menu {
+          flex: 1;
+          text-align: center; } }
+      @media screen and (max-width: 600px) {
+        .container .site-footer .site-footer__menu {
+          margin-top: 2rem; } }
       .container .site-footer .site-footer__menu div {
         flex: 1; }
         .container .site-footer .site-footer__menu div ul {
@@ -276,7 +292,7 @@ body {
             margin-bottom: 0.5rem; }
             .container .site-footer .site-footer__menu div ul li a {
               color: #fff;
-              font-size: 0.85rem;
+              font-size: 0.8rem;
               font-weight: 300;
               text-decoration: none; }
     .container .site-footer .site-footer__request {
@@ -284,14 +300,14 @@ body {
       flex: 2; }
       @media screen and (max-width: 1024px) {
         .container .site-footer .site-footer__request {
-          flex: 1; } }
+          flex: 1;
+          padding-left: 0.5rem; } }
       @media screen and (max-width: 600px) {
         .container .site-footer .site-footer__request {
-          flex: 1 0 300px;
           margin-top: 2rem;
           text-align: center; } }
       .container .site-footer .site-footer__request .copyright {
-        margin-top: 2rem;
+        margin-top: 1.5rem;
         color: #aaa;
         font-size: 0.8rem; }
   .container .wrapper {
@@ -301,6 +317,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; }
+    @media screen and (max-width: 600px) {
+      .container .wrapper {
+        padding: 0 1.5rem; } }
   .container .btn-request {
     display: inline-block;
     padding: 0.65rem 1.3rem;
