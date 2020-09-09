@@ -50,7 +50,7 @@ body {
         text-align: center;
         border-radius: 20px;
         box-shadow: 0px 60px 140px 0px #444;
-        transition: all 0.5s ease-in-out;
+        transition: right 0.5s ease-in-out;
         &.active {
           right: 50%;
         }
@@ -198,7 +198,7 @@ body {
           max-width: 100%;
         }
         @media screen and (max-width: 600px) {
-          margin: -9rem 0 -3rem 0;
+          margin: -7rem 0 -3rem 0;
         }
       }
     }
